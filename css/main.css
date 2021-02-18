@@ -520,6 +520,10 @@ img {
   background-color: var(--footer-social-bgc);
 }
 
+.footer-form {
+  position: relative;
+}
+
 .footer-modal-wrapper {
   margin-left: auto;
 }
@@ -553,7 +557,6 @@ img {
 }
 
 .footer-modal-form-btn {
-  position: relative;
   padding: 10px 62px 10px 29px;
 }
 
