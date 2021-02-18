@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     
@@ -51,19 +51,19 @@
             <h1 class="visually-hidden">Портфолио</h1>
             <ul class="list portfolio-filters">
                 <li class="item">
-                    <button type="button" class="portfolio-buttons">Все</button>
+                    <button type="button" class="portfolio-filters-btn">Все</button>
                 </li>
                 <li class="item">
-                    <button type="button" class="portfolio-buttons">Веб-сайты</button>
+                    <button type="button" class="portfolio-filters-btn">Веб-сайты</button>
                 </li>
                 <li class="item">
-                    <button type="button" class="portfolio-buttons">Приложение</button>
+                    <button type="button" class="portfolio-filters-btn">Приложение</button>
                 </li>
                 <li class="item">
-                    <button type="button" class="portfolio-buttons">Дизайн</button>
+                    <button type="button" class="portfolio-filters-btn">Дизайн</button>
                 </li>
                 <li class="item">
-                    <button type="button" class="portfolio-buttons">Маркетинг</button>
+                    <button type="button" class="portfolio-filters-btn">Маркетинг</button>
                 </li>
             </ul>
             <h2 class="visually-hidden">Проекты</h2>
@@ -229,12 +229,10 @@
                 <b class="footer-subtitle">Подпишитесь на рассылку</b>
                 <form class="footer-form" action="#">
                     <input class="footer-modal-input" name="user-subscribe" type="email" placeholder="E-mail" required>
-                    <div class="footer-modal-thumb">
-                        <button class="footer-modal-form-btn" type="submit">Подписаться</button>
-                        <svg class="footer-modal-icon">
-                            <use href="./images/sprite.svg#icon-telegram"></use>
-                        </svg>
-                    </div>
+                    <button class="button footer-modal-form-btn" type="submit">Подписаться</button>
+                    <svg class="footer-modal-icon">
+                        <use href="./images/sprite.svg#icon-telegram"></use>
+                    </svg>
                 </form>
             </div>
         </div>

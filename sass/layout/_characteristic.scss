@@ -1,0 +1,46 @@
+.charact-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .charact-list .item {
+    width: 270px;
+  }
+  
+  .charact-list .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .charact-title {
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  .charact-text {
+    margin: 0;
+  
+    width: 270px;
+    height: 75px;
+  
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+  .charact-section {
+    padding-bottom: 0;
+  }
+  
+  .thumb-charact {
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--second-bgc);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .charact-decoration {
+    width: 70px;
+    height: 70px;
+  }
