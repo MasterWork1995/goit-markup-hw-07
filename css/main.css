@@ -193,7 +193,7 @@ img {
   margin-bottom: 30px;
 }
 
-.teame-list > .item:not(:last-child) {
+.team-list > .item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -401,36 +401,36 @@ img {
   margin-bottom: 50px;
 }
 
-.teame-section {
+.team-section {
   background-color: var(--second-bgc);
 }
 
-.teame-list {
+.team-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.teame-subsection {
+.team-subsection {
   background-color: var(--primary-white-color);
   text-align: center;
   padding: 30px 10px;
 }
 
-.teame-text {
+.team-text {
   margin: 0;
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.87;
 }
 
-.command-title {
+.team-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
-.teame-title {
+.team-title {
   margin-bottom: 50px;
 }
 
@@ -472,7 +472,7 @@ img {
   fill: var(--primary-white-color);
 }
 
-.teame-social-link {
+.team-social-link {
   fill: var(--primery-icons-color);
 }
 
