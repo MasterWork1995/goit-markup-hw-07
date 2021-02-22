@@ -1,6 +1,6 @@
 .item {
 
-    .about-list & {
+    .services-list & {
         position: relative;
         display: block;
 
@@ -9,7 +9,7 @@
         }
     }
 
-    .charact-list & {
+    .features-list & {
         width: 270px;
 
         &:not(:last-child) {

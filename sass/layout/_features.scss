@@ -1,14 +1,14 @@
-.charact-list {
+.features-list {
     display: flex;
     flex-wrap: wrap;
   }
   
-.charact-title {
+.features-title {
   text-align: left;
   text-transform: uppercase;
 }
   
-.charact-text {
+.features-text {
   margin: 0;
   
   width: 270px;
@@ -18,11 +18,11 @@
   line-height: 1.71;
 }
   
-.charact-section {
+.features-section {
   padding-bottom: 0;
 }
   
-.thumb-charact {
+.thumb-features {
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--second-bgc);
@@ -32,7 +32,7 @@
   align-items: center;
 }
   
-.charact-decoration {
+.features-decoration {
   width: 70px;
   height: 70px;
 }
