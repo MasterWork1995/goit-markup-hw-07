@@ -14,7 +14,7 @@
   }
   
   
-  .modal-close-button {
+.modal-close-button {
     width: 30px;
     height: 30px;
     padding: 0;
@@ -31,18 +31,18 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
   }
   
-  .modal-close-button:focus {
-    outline: none;
-  }
-  
-  .modal-close-svg {
+.modal-close-svg {
     width: 18px;
     height: 18px;
   }
   
-  .is-hidden {
+.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;

@@ -9,15 +9,15 @@
     box-sizing: border-box;
     background-color: transparent;
     border-radius: 4px;
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+      color: var(--footer-link-color);
+    }
   }
   
-  .footer-modal-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: var(--footer-link-color);
-  }
-  
-  .footer-modal-icon {
+.footer-modal-icon {
     width: 24px;
     height: 24px;
   
@@ -29,6 +29,6 @@
     transform: translateY(-50%);
   }
   
-  .footer-modal-form-btn {
+.footer-modal-form-btn {
     padding: 10px 62px 10px 29px;
   }

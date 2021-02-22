@@ -2,21 +2,17 @@
     background-color: var(--second-bgc);
   }
   
-  .teame-list {
+.teame-list {
     display: flex;
   }
   
-  .teame-list>.item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .teame-subsection {
+.teame-subsection {
     background-color: var(--primary-white-color);
     text-align: center;
     padding: 30px 10px;
   }
   
-  .teame-text {
+.teame-text {
     margin: 0;
     margin-bottom: 16px;
   
@@ -24,27 +20,29 @@
     line-height: 1.87;
   }
   
-  .comand-title {
+.comand-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
   }
   
-  .teame-title {
+.teame-title {
     margin-bottom: 50px;
   }
   
-  .social-list {
+.social-list {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  .social-item:not(:last-child) {
+
+.social-item {
+  &:not(:last-child) {
     margin-right: 10px;
   }
+}
   
-  .social-link {
+.social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,23 +52,27 @@
     border-radius: 50%;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+      fill: var(--primary-white-color);
+    }
   }
   
-  .teame-social-link {
+.teame-social-link {
     fill: var(--primery-icons-color);
   }
   
-  .social-icons {
+.social-icons {
     width: 20px;
     height: 20px;
   
     transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .social-link:hover,
-  .social-link:focus,
-  .social-icons:hover,
-  .social-icons:focus {
-    background-color: var(--accent-color);
-    fill: var(--primary-white-color);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+      fill: var(--primary-white-color);
+    }
   }

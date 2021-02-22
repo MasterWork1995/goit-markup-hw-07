@@ -16,8 +16,8 @@
   line-height: 1.875;
   font-family: inherit;
   letter-spacing: 0.06em;
-}
 
-.button:active {
-  outline: none;
+  &:active {
+    outline: none;
+  }
 }

@@ -3,44 +3,36 @@
     flex-wrap: wrap;
   }
   
-  .charact-list .item {
-    width: 270px;
-  }
+.charact-title {
+  text-align: left;
+  text-transform: uppercase;
+}
   
-  .charact-list .item:not(:last-child) {
-    margin-right: 30px;
-  }
+.charact-text {
+  margin: 0;
   
-  .charact-title {
-    text-align: left;
-    text-transform: uppercase;
-  }
+  width: 270px;
+  height: 75px;
   
-  .charact-text {
-    margin: 0;
+  font-size: 14px;
+  line-height: 1.71;
+}
   
-    width: 270px;
-    height: 75px;
+.charact-section {
+  padding-bottom: 0;
+}
   
-    font-size: 14px;
-    line-height: 1.71;
-  }
+.thumb-charact {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--second-bgc);
   
-  .charact-section {
-    padding-bottom: 0;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .thumb-charact {
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--second-bgc);
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .charact-decoration {
-    width: 70px;
-    height: 70px;
-  }
+.charact-decoration {
+  width: 70px;
+  height: 70px;
+}
